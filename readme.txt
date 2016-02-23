@@ -1,0 +1,15 @@
+# start clearsky ->start.bat
+
+# update clearsky ->update.bat
+
+If it said to be
+/usr/bin/php/php.exe: error while loading shared libraries: MSVCR110.dll: cannot open shared object file: No such file or directory
+
+please install vcredist_x86.exe.
+
+
+if it said to be
+/usr/bin/php/php.exe: error while loading shared libraries: api-ms-win-crt-locale-l1-1-0.dll: cannot open shared object file: No such file or directory
+
+please install vc_redist.x86.exe.
+
