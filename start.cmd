@@ -10,7 +10,7 @@ if exist bin\php\php.exe (
 )
 
 if exist ClearSky.phar (
-	set POCKETMINE_FILE=ClearSky.phar
+	set POCKETMINE_FILE=ClearSky-php7.phar
 ) else (
 	if exist src\pocketmine\PocketMine.php (
 		set POCKETMINE_FILE=src\pocketmine\PocketMine.php
