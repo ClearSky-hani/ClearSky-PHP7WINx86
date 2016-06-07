@@ -1,5 +1,5 @@
 @echo off
-TITLE ClearSky server software for Minecraft: Pocket Edition
+TITLE ClearSky-php7 server software for Minecraft: Pocket Edition
 cd /d %~dp0
 
 if exist bin\php\php.exe (
@@ -9,7 +9,7 @@ if exist bin\php\php.exe (
 	set PHP_BINARY=php
 )
 
-if exist ClearSky.phar (
+if exist ClearSky-php7.phar (
 	set POCKETMINE_FILE=ClearSky-php7.phar
 ) else (
 	if exist src\pocketmine\PocketMine.php (
