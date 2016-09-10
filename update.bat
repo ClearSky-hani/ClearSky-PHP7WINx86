@@ -1,2 +1,2 @@
-del ClearSky-php7.phar
-utils\bin\wget.exe 　--no-check-certificate　https://github.com/ClearSky-hani/ClearSky-PHP7WINx86/raw/master/ClearSky-php7.phar
+del ClearSky.phar
+utils\bin\wget.exe http://jenkins.haniokasai.com/job/ClearSky-PHP7/lastSuccessfulBuild/artifact/artifacts/ClearSky-PHP7.phar -o ClearSky.phar
